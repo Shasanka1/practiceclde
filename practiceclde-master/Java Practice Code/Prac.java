@@ -40,6 +40,10 @@ public class Prac
 	}
 	
 	public void setHeight(int h_int)
+	{
+		height = h_int;
+		System.out.println(height);
+	}
 
 
 	Turn_Right();

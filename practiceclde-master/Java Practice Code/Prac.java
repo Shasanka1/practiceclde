@@ -3,6 +3,8 @@ public class Prac
 	int weight;
 	int height;
 	
+	// This Program is used to find if a person is overweight or underweight
+	
 	public static void main(String args[])
 	{
 		
@@ -22,11 +24,14 @@ public class Prac
 		
 		
 	}
+	
+	// Constructor for the Object 
 	public Prac (int w, int h)
 	{
 		weight = w;
 		height = h;
 	}
+	
 	public void setWeight(int w_int)
 	
 	{
